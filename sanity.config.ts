@@ -4,8 +4,8 @@ import {visionTool} from '@sanity/vision'
 import {schemaTypes} from './schemaTypes'
 import {structure} from './structure'
 
-const config = defineConfig({
-  name: 'config',
+export default defineConfig({
+  name: 'default',
   title: 'layth-sanity-website',
 
   projectId: '6a6g9fpr',
